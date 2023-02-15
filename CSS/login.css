@@ -14,7 +14,7 @@ body{
   
     position:absolute;
     width: 100%;
-    background: url(/image/login.png) no-repeat right bottom;
+    background: url(./image/login.png) no-repeat right bottom;
     background-size: contain;
     margin-top: 4%;
     
