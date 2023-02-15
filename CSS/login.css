@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    /* background-image: url(/image/login.png) center top;
+    background-size: 40% 100%;
+    background-repeat: no-repeat; */
+    overflow-x: hidden;
+    
+}
+.container-fluid{
+  display: inline;
+  
+    position:absolute;
+    width: 100%;
+    background: url(/image/login.png) no-repeat right bottom;
+    background-size: contain;
+    margin-top: 4%;
+    
+}
+.container-fluid h1{
+ margin: auto;
+ color: rgb(164, 3, 97);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size:300%;font-weight: 500;
+}
+.container-fluid h4{
+  margin: auto;
+  color: rgb(164, 3, 97);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+ }
+
+form{
+    width: 100%;
+  max-width: 330px;
+  height: 400px;
+  padding: 35px;
+  margin:auto ;
+  border: .1em solid grey; 
+  border-radius: 2%; 
+  background-color: white;
+  text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 10px;
+    font-size: 90%;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .mb-3 input{
+    border-radius: .2cm;
+    border-color: rgb(113, 113, 113);
+    padding: 2%;
+    font-size: 90%;
+}
+
+
+

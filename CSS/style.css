@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/image/homebg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.navbar-nav{
+    margin-left: 40%;
+   
+
+}
+.container{
+    color: rgb(5, 5, 174);
+    text-align: center;
+    
+    
+}
+
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+    color: rgb(5, 5, 174);    
+    margin-top: 18%;
+}
+.container h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+   
+}

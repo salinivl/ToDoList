@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./CSS/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="container-fluid"> 
+    <h1>Hello!</h1>
+    <h4>Login to your account</h4>
+    <form>
+  
+        <!-- style=" margin-top: 10px; margin-bottom: 25px; width: 8cm; height: 12cm; border: .1em solid grey; border-radius: 2%; background-color: rgb(253, 253, 250);text-align: center;padding: 50px 20px 10px 20px;margin-left: 600px;" -->
+            
+          <div class="mb-3" >
+            <label for="Heading" class="form-label " style="font-weight:bold;font-size: .7cm;">To Do List</label>
+            <!-- <div id="emailHelp" class="form-text"></div> -->
+          </div>
+    
+          <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" placeholder="Username" onkeyup="validateUName()">
+              <span id="usernameerror" style="text-align: center; font-size: small;"></span>  
+            </div>
+            
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control " id="password" placeholder="Password" onkeyup="validatePassword()">
+              <span id="pwderror" style="text-align: center; font-size: small;"></span>
+            </div>
+            <div class="mb-3 form-check">
+              <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+              <label class="form-check-label" for="exampleCheck1" style="text-align: center; margin-left: -.7cm;font-size: smaller;"> <a href="#">Forgot Password</a> </label>
+            </div>
+            <button type="submit" id="callback_btn" class="btn btn-primary"  style="border-radius: 1cm; border-color: white; border-width: 2px; font-size: 90%; width: 7cm;background-color: rgb(4, 83, 126);" >Log In</button> 
+          </form> 
+          <!-- <button type="submit" id="callback_btn" class="btn btn-primary"  style="border-radius: 1cm; border-color: white; border-width: 2px; font-size: 90%; width: 7cm;background-color: rgb(4, 83, 126);" >Log In</button>  -->
+        </div>
+
+    <script src="./Script/login.js"></script>
+    </body>
+
+</html>
