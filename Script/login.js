@@ -37,11 +37,13 @@ function validatePassword(){
       event.preventDefault();
       console.log("User has clicked on the button!");
       if (validateUName() && validatePassword()){
-        window.location.replace("home.html");
+        redirecttohome()
       }
     });
     
-
+function redirecttohome(){
+  window.location.replace("home.html");
+}
     
    //  document.querySelector("#callback_btn")
    //  .addEventListener("click",function(){
